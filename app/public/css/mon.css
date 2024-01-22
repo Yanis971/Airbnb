@@ -1,0 +1,53 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+/* page d'accueil */
+
+.nav-footer {
+    /* tout aligner en bas */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.nav-ul-footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.box-custom {
+    background-size: cover;
+    /* Ajuste la taille de l'image pour couvrir complètement l'élément */
+    background-position: center;
+    /* Centre l'image dans l'élément */
+    text-align: center;
+    /* Alignement du texte */
+    padding: 20px;
+    /* Ajoute de l'espace intérieur à l'élément pour que le texte ne soit pas collé aux bords */
+
+}
+
+.card-title {
+    color: antiquewhite;
+}
+
+.card-text {
+    color: antiquewhite;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    width: 100vw;
+
+}
