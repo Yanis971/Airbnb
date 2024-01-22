@@ -42,6 +42,22 @@ html {
     color: antiquewhite;
 }
 
+.login-text {
+    color: cadetblue;
+}
+
+.card-title-bg {
+    color: rgb(0, 0, 0);
+}
+
+.card-text-bg {
+    color: rgb(0, 0, 0);
+}
+
+.listing-card-text {
+    color: lightslategray;
+}
+
 #footer {
     position: fixed;
     bottom: 0;
