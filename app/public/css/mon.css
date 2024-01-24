@@ -58,6 +58,29 @@ html {
     color: lightslategray;
 }
 
+._vuzcgs {
+    -webkit-box-pack: end !important;
+    -ms-flex-pack: end !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    position: relative !important;
+    display: -webkit-box !important;
+    display: -moz-box !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    height: 80px !important;
+}
+
+._pvfg6t {
+    position: relative !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
 #footer {
     position: fixed;
     bottom: 0;

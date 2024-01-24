@@ -1,0 +1,9 @@
+// Initialization for ES Users
+import { Collapse, Ripple, initMDB } from "mdb-ui-kit";
+
+initMDB({ Collapse, Ripple });
+
+// Initialization for ES Users
+import { Dropdown, initMDB } from "mdb-ui-kit";
+
+initMDB({ Dropdown });

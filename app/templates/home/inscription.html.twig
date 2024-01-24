@@ -1,0 +1,78 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Inscription/Connexion{% endblock %}
+{% block body %}
+
+<div class="card-body p-5 shadow-5 text-center">
+    <h2 class="fw-bold mb-5 card-title-bg">Bienvenue sur Airbnb</h2>
+    <form action="{{path('app_view')}}" method="post">
+        <!-- 2 column grid layout with text inputs for the first and last names -->
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="form-outline">
+                    <input type="text" id="form3Example1" class="form-control" />
+                    <label class="form-label card-title-bg" for="form3Example1">Nom</label>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="form-outline">
+                    <input type="text" id="form3Example2" class="form-control" />
+                    <label class="form-label card-title-bg" for="form3Example2">Prénom</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+            <input type="email" id="form3Example3" class="form-control" />
+            <label class="form-label card-title-bg" for="form3Example3">Adresse mail</label>
+        </div>
+
+        <!-- Password input -->
+        <div class="form-outline mb-4">
+            <input type="password" id="form3Example4" class="form-control" />
+            <label class="form-label card-title-bg" for="form3Example4">Mot de passe</label>
+        </div>
+
+        <!-- Checkbox -->
+        <div class="form-check d-flex justify-content-center mb-4">
+            <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
+            <label class="form-check-label card-title-bg" for="form2Example33">
+                Subscribe to our newsletter
+            </label>
+        </div>
+
+        <!-- Submit button -->
+        <button type="checkbox" class="btn btn-primary btn-block mb-4">
+            Connexion
+        </button>
+
+        <!-- Register buttons -->
+        <div class="text-center card-title-bg">
+            <p>ou continuer avec :</p>
+            <button type="button" class="btn btn-link btn-floating mx-1"><a
+                    href="https://www.facebook.com/?locale=fr_FR">
+                    <i class="fab fa-facebook-f"></i>
+            </button>
+            </a>
+
+            <button type="button" class="btn btn-link btn-floating mx-1"><a
+                    href="https://accounts.google.com/InteractiveLogin/identifier?elo=1&ifkv=ASKXGp3bmBv8qX6sF3QFxyqUF5_Gs_d8tPSoAD36YoZpeRHdssIcZuo7mgD4Tl-wfsP3wqFVc-umHA&theme=glif&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                    <i class="fab fa-google"></i>
+            </button>
+            </a>
+
+            <button type="button" class="btn btn-link btn-floating mx-1"><a href="https://twitter.com/i/flow/login">
+                    <i class="fab fa-twitter"></i>
+            </button>
+            </a>
+            <button type="button" class="btn btn-link btn-floating mx-1"><a href="https://github.com/logout">
+                    <i class="fab fa-github"></i>
+            </button>
+            </a>
+        </div>
+    </form>
+</div>
+</div>
+</div>
+{% endblock %}
